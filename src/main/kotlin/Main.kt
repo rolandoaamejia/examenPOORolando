@@ -1,15 +1,14 @@
-import kotlin.concurrent.thread
-
 val estado = classElevador()
 val sitio = classLugar()
 
 fun main(args: Array<String>)
 {
 
-    val ingresePiso:String?
+    val ingresePiso:Int
 
     println("Ingrese el piso al que desea ir: ")
     ingresePiso = readLine().toInt() as Int
+    ingresePiso.toInt() as Int
     while(ingresePiso<15)
     {
         thread.sleep(1000)
