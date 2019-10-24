@@ -11,11 +11,11 @@ open class classElevador(var posicion : Int =(random.nextInt(3)+1))
          }
         if(posicion==2)
         {
-            return "El Elevador esta:ARRIBA"
+            return "El Elevador se encuentra ARRIBA"
         }
         else
         {
-            return "El Elevador esta:ABAJO"
+            return "El Elevador se encuentraABAJO"
         }
 
     }
